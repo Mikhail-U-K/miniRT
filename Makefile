@@ -6,40 +6,40 @@
 #    By: bdaedric <bdaedric@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/03 16:42:50 by bdaedric          #+#    #+#              #
-#    Updated: 2020/11/13 12:26:12 by bdaedric         ###   ########.fr        #
+#    Updated: 2021/03/18 15:42:37 by bdaedric         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= miniRT
 
-SRC			= set_5.c \
-              collision.c \
-              cylinder_collision.c \
-              init.c \
-              light_and_shadows.c \
-              main.c \
-              map_errors.c \
-              parser.c \
-              plane_collision.c \
-              rendering.c \
-              screen_shot.c \
-              set_2.c \
-              set.c \
-              set_3.c \
-              set_4.c \
-              set_6.c \
-              sphere_collision.c \
-              square_collision.c \
-              triangle_collision.c \
-              utils.c \
-              utils_2.c \
-              utils_3.c \
+SRC			= srcs/set_5.c \
+              srcs/collision.c \
+              srcs/cylinder_collision.c \
+              srcs/init.c \
+              srcs/light_and_shadows.c \
+              srcs/main.c \
+              srcs/map_errors.c \
+              srcs/parser.c \
+              srcs/plane_collision.c \
+              srcs/rendering.c \
+              srcs/screen_shot.c \
+              srcs/set_2.c \
+              srcs/set.c \
+              srcs/set_3.c \
+              srcs/set_4.c \
+              srcs/set_6.c \
+              srcs/sphere_collision.c \
+              srcs/square_collision.c \
+              srcs/triangle_collision.c \
+              srcs/utils.c \
+              srcs/utils_2.c \
+              srcs/utils_3.c \
               libft/get_next_line.c \
               libft/ft_lstadd_front.c \
               libft/ft_lstnew.c \
-              hooks.c
+              srcs/hooks.c
 
-HEADER		= minirt.h
+HEADER		= srcs/minirt.h
 
 OBJS		= ${SRC:.c=.o}
 
